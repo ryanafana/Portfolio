@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>Ryan Arthur</h1>
         <nav>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
@@ -17,19 +17,48 @@
     </header>
     <section id="about">
         <h2>About Me</h2>
-        <p>A brief description about you.</p>
+        <p>Hi! I'm Ryan Arthur, a multifaceted creative with a deep love for all things artistic and functional. Whether it's acting, designing graphics, supervising music, or diving into code, I'm driven by a passion for creativity and problem-solving. As a recent graduate of the NPower Command Shift program, I’m excited to blend my diverse skills in the digital space and beyond. Let’s create something amazing together!</p>
     </section>
     <section id="projects">
         <h2>Projects</h2>
         <div class="project-list">
-            <div class="project-item">Project 1</div>
-            <div class="project-item">Project 2</div>
+            <div class="project-item">
+                <h3>WOCode</h3>
+                <img src="wocode_screenshot.png" alt="Project 1 screenshot">
+                <p>This project is a dynamic and inclusive platform designed to empower women of color in the tech industry by fostering connections, communication, and community building. The platform provides a safe and supportive space where members can share experiences, collaborate on projects, and access resources tailored to their unique challenges and opportunities. By bringing together like-minded professionals, this community-driven initiative aims to elevate voices, celebrate achievements, and create lasting bonds that help women of color thrive in the tech world.</p>
+                <a href="https://link-to-project1.com" target="_blank">View Project</a>
+                <a href="https://github.com/username/project1" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-item">
+                <br>
+                <h3>Project Title 2</h3>
+                <img src="path/to/image2.jpg" alt="Project 2 screenshot">
+                <p>A brief description of the project. What technologies were used, what problem it solves, etc.</p>
+                <a href="https://link-to-project2.com" target="_blank">View Project</a>
+                <a href="https://github.com/username/project2" target="_blank">View on GitHub</a>
+            </div>
+          
         </div>
     </section>
+    
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: youremail@example.com</p>
+        <h2>Contact Me</h2>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+    
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
     </section>
+    
     <footer>
         <p>&copy; 2024 My Portfolio</p>
     </footer>
